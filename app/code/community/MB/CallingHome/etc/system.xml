@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+  <tabs>
+    <MB_CallingHome translate="label">
+      <label>Calling Home</label>
+      <sort_order>100</sort_order>
+      <class>MB_CallingHome</class>
+    </MB_CallingHome>
+  </tabs>
+  <sections>
+    <calling translate="label">
+      <label>Calling Home</label>
+      <tab>MB_CallingHome</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>100</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+      <groups>
+        <home translate="label">
+          <label>Calling Home</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>100</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <fields>
+            <nasty translate="label">
+              <label>Expression to check</label>
+              <frontend_type>textarea</frontend_type>
+              <sort_order>100</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </nasty>
+          </fields>
+        </home>
+      </groups>
+    </calling>
+  </sections>
+</config>

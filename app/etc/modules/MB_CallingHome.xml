@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <MB_CallingHome>
+      <active>true</active>
+      <codePool>community</codePool>
+    </MB_CallingHome>
+  </modules>
+</config>
